@@ -1,5 +1,5 @@
 ## Produces a .csv ready for import to a GIS to display CDW LIDS transects as lines.
-## Resutling .csv created in working directory loads via Well Known Text (wkt) field, per site's UTM projection
+## Resultling .csv created in working directory loads via Well Known Text (wkt) field, per site's UTM projection
 ## Inputs are transect distance, site/plot-type specific LIDSlist and site spatial information from SSL
 ## By Greg Chapman, last updated 20190314
 
