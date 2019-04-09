@@ -6,3 +6,5 @@ Resultling .csv created in working directory loads via Well Known Text (wkt) fie
 Inputs are transect distance, site/plot-type specific LIDSlist and site spatial information from SSL.
 
 File is confirmed compatible with QGIS, not yet tested with ArcGIS.
+
+"NEON_CDW_transects_wkt.qml" is a QGIS style file to help display the resulting layer once within QGIS.
