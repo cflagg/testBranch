@@ -49,3 +49,7 @@ File is confirmed compatible with QGIS, not yet tested with ArcGIS.
 
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/applyStyle.PNG" width="814" height="373">
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/plotExample.PNG" width="676" height="634">
+
+5. For tightly clustered tower transects, as shown above, a color ramp symbology per plotID may be more appropriate, but the provided style file should hopefully help get things started.
+
+6. **Hope this helps!**
