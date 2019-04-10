@@ -1,0 +1,36 @@
+---
+title: "learn_bayes"
+author: "Cody Flagg"
+date: "December 21, 2015"
+output: html_document
+---
+
+
+```{r}
+# compare distribution of two populations with the t-statistic
+x = rnorm(10, 5, 2)
+y = rnorm(10, 50, 10)
+
+# t-statistic = (x-mu - y-mu) / (pooled stdev) * (1/sample-size x) + (1/sample-size y)
+
+# sample size
+m = length(x)
+n = length(y)
+
+# pooled st.dev
+sp=sqrt(((m-1)*sd(x)^2+(n-1)*sd(y)^2)/(m+n-2))
+
+# calculate t-stat
+t.stat=(mean(x)-mean(y))/(sp*sqrt(1/m+1/n))
+
+# function for computing t-stat
+tstatistic=function(x,y)
+{
+  m=length(x)
+  n=length(y)
+  sp=sqrt(((m-1)*sd(x)^2+(n-1)*sd(y)^2)/(m+n-2))
+  t.stat=(mean(x)-mean(y))/(sp*sqrt(1/m+1/n))
+  return(t.stat)
+}
+```
+
