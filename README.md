@@ -42,3 +42,9 @@ File is confirmed compatible with QGIS, not yet tested with ArcGIS.
 3. Add the wkt .csv, and fill in all dialogs/selections as appropriate (example below). Be sure to specify the correct UTM Zone and Datum.
 
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/addLayer2.PNG" width="592" height="495">
+
+3. The file should load, but lines may be difficult to see in the default view. However, from here, symbology/styling, and exporting to shapefile of Google Earth .kml, can take place as needed.
+
+4. As a styling starting point, the "NEON_CDW_transects_wkt.qml" style file can be applied by right-clicking on the layer's TOC entry, selecting 'Style' under 'Layer Rendering' at the bottom left, and then loading the style file from the 'CDW-lidsLines' directory.
+
+<img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/applyStyle.PNG" width="678" height="311">
