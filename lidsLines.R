@@ -12,19 +12,19 @@ library(rgeos)
 
 ## Specify transect distance (m) per protocol Appendix D
 
-  distance <- 300
+  distance <- 240
 
 #### Download plot/lids files to working directory
 
 ## Site-specific spatial info from
 ##  https://neoninc.sharepoint.com/sites/fopscollaboration/FSU%20Only%20Documents/Forms/PlotIDs.aspx
 
-  SSL_plots <- "D02_SERC_UniquePlotIDsandSamplingModules_2019.csv"
+  SSL_plots <- "D02_SCBI_UniquePlotIDsandSamplingModules_2019.csv"
 
 ## Site/bout specific LIDSlist from
 ##  https://neoninc.sharepoint.com/sites/fopscollaboration/FSU%20Only%20Documents/Forms/CdwLids.aspx
 
-  SSL_lids <- "SERC_tower_lidsList.csv"
+  SSL_lids <- "SCBI_tower_lidsList.csv"
 
 ## Run list.files() to copy/paste if needed
   
