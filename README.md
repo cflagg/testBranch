@@ -33,8 +33,12 @@ File is confirmed compatible with QGIS, not yet tested with ArcGIS.
 
 (**The following instructions are for QGIS v3.0+** and presume a little familiarity with using GIS software. I do not have desktop ArcGIS handy, but I imagine the process would be similar; however the style file will obviously not work in ArcGIS. Friendly plug: QGIS is legally-free, open source software that is very good for basic cartographic and spatial processing needs, and is available at https://qgis.org)
 
-1. Open or create a project for your site or domain. If creating a project, best to set the CRS to the correct UTM Zone for the site or domain.
+1. Open or create a project for your site or domain. If creating a project, best to set the CRS to the correct UTM Zone (per WGS84 Datum) for the site or domain.
 
 2. Go to Layer --> Add Layer --> Add Delimited Text Layer...
 
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/addLayer.PNG" width="714" height="415">
+
+3. Add the wkt .csv, and fill in all dialogs/selections as appropriate (example below). Be sure to specify the correct UTM Zone and Datum.
+
+<img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/addLayer2.PNG" width="592" height="495">
