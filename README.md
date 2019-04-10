@@ -1,13 +1,13 @@
 # CDW-lidsLines
-Produces a .csv ready for import to a GIS to display CDW LIDS transects as lines.
+#### Produces a .csv ready for import to a GIS to display CDW LIDS transects as lines.
 
-Resulting .csv created in working directory loads via Well Known Text (wkt) field, per site's UTM projection.
+  * Resulting .csv created in working directory loads via Well Known Text (wkt) field, per site's UTM projection.
 
-Inputs are transect distance, site/plot-type specific LIDSlist and site spatial information from SSL.
+  * Inputs are transect distance, site/plot-type specific LIDSlist and site spatial information from SSL.
 
-File is confirmed compatible with QGIS, not yet tested with ArcGIS.
+  * File is confirmed compatible with QGIS, not yet tested with ArcGIS.
 
-"NEON_CDW_transects_wkt.qml" is a QGIS style file to help display the resulting layer once within QGIS.
+  * "NEON_CDW_transects_wkt.qml" is a QGIS style file to help display the resulting layer once within QGIS.
 
 ## Instructions
 
@@ -45,7 +45,11 @@ File is confirmed compatible with QGIS, not yet tested with ArcGIS.
 
 3. The file should load, but lines may be difficult to see in the default view. However, from here, symbology/styling, and exporting to shapefile of Google Earth .kml, can take place as needed.
 
-4. As a styling starting point, the "NEON_CDW_transects_wkt.qml" style file can be applied by right-clicking on the layer's TOC entry, slecting 'Properties' and then 'Symbology', selecting 'Style' under 'Layer Rendering' at the bottom left, and then loading the style file from the 'CDW-lidsLines' directory.
+4. As a styling starting point, the "NEON_CDW_transects_wkt.qml" style file can be applied by right-clicking on the layer's TOC entry, selecting 'Properties' and then 'Symbology', selecting 'Style' under 'Layer Rendering' at the bottom left, and then loading the style file from the 'CDW-lidsLines' directory.
 
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/applyStyle.PNG" width="814" height="373">
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/plotExample.PNG" width="676" height="634">
+
+5. For tightly clustered tower transects, as shown above, a color ramp symbology per plotID may be more appropriate, but the provided style file should hopefully help get things started.
+
+6. **Hope this helps!**
