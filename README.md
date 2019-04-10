@@ -47,4 +47,5 @@ File is confirmed compatible with QGIS, not yet tested with ArcGIS.
 
 4. As a styling starting point, the "NEON_CDW_transects_wkt.qml" style file can be applied by right-clicking on the layer's TOC entry, slecting 'Properties' and then 'Symbology', selecting 'Style' under 'Layer Rendering' at the bottom left, and then loading the style file from the 'CDW-lidsLines' directory.
 
-<img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/applyStyle.PNG" width="678" height="311">
+<img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/applyStyle.PNG" width="814" height="373">
+<img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/plotExample.PNG" width="676" height="634">
