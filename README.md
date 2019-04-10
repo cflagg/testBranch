@@ -45,7 +45,7 @@
 
 3. The file should load, but lines may be difficult to see in the default view. However, from here, symbology/styling, and exporting to shapefile of Google Earth .kml, can take place as needed.
 
-4. As a styling starting point, the "NEON_CDW_transects_wkt.qml" style file can be applied by right-clicking on the layer's TOC entry, slecting 'Properties' and then 'Symbology', selecting 'Style' under 'Layer Rendering' at the bottom left, and then loading the style file from the 'CDW-lidsLines' directory.
+4. As a styling starting point, the "NEON_CDW_transects_wkt.qml" style file can be applied by right-clicking on the layer's TOC entry, selecting 'Properties' and then 'Symbology', selecting 'Style' under 'Layer Rendering' at the bottom left, and then loading the style file from the 'CDW-lidsLines' directory.
 
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/applyStyle.PNG" width="814" height="373">
 <img src="https://github.com/gschapman/CDW-lidsLines/blob/master/images/plotExample.PNG" width="676" height="634">
