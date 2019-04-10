@@ -19,4 +19,4 @@ File is confirmed compatible with QGIS, not yet tested with ArcGIS.
 ..*plotID file name
 ..*Lids angle file name
 
-![alt text](https://github.com/gschapman/CDW-lidsLines/images/inputs.PNG "inputs")
+![alt text](https://github.com/gschapman/CDW-lidsLines/blob/master/images/inputs.PNG "inputs")
